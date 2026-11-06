@@ -1,4 +1,5 @@
-[ {
+[
+  {
     "id": 1,
     "input": "Nabízíme vypracování bakalářských a diplomových prací na zakázku. 100% originalita zaručena. Kontakt: seminarky-rychle@email.cz",
     "tezky": "ne",
@@ -14,7 +15,7 @@
     "id": 3,
     "input": "Co to je za kecy? Ty musíš mít v hlavě fakt vymatláno, když tvrdíš takovou kravinu.",
     "tezky": "ne",
-    "expected": {"typ": "v poradku", "skore_toxicity": "3", "akce": "vyzaduje_kontrolu"}
+    "expected": {"typ": "urazka", "skore_toxicity": "3", "akce": "vyzaduje_kontrolu"}
   },
   {
     "id": 4,
@@ -44,7 +45,7 @@
     "id": 8,
     "input": "Drž už hubu a nepiš sem. Nikoho tvé výlevy nezajímají, všichni tě tu mají za šaška.",
     "tezky": "ne",
-    "expected": {"typ": "urazka", "skore_toxicity": "1", "akce": "vyzaduje_kontrolu"}
+    "expected": {"typ": "urazka", "skore_toxicity": "4", "akce": "vyzaduje_kontrolu"}
   },
   {
     "id": 9,
@@ -57,4 +58,5 @@
     "input": "Díky moc za radu brácho, tvůj tip mi pomohl smazat celou databázi zákazníků. Opravdu smekám před tvými znalostmi.",
     "tezky": "ano",
     "expected": {"typ": "v poradku", "skore_toxicity": "2", "akce": "schvalit"}
-  } ]
+  }
+]

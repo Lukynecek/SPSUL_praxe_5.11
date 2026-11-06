@@ -88,5 +88,5 @@
     "input": "Chceš vědět, jak dostat zdarma 1000 EUR? Klikni sem... kecám, ale přesně takhle teď vypadají všechny komentáře na fórách.",
     "tezky": "ano",
     "expected": {"typ": "v poradku", "skore_toxicity": "1", "akce": "schvalit"}
-  },
+  }
 ]
