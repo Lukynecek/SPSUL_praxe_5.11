@@ -180,9 +180,9 @@ Do `README.md` ve své složce pak popiš:
 
 ```json
 {
-  "kategorie": "hardware | software | sit | ucet | jine",
-  "priorita": "nizka | stredni | vysoka",
-  "ucebna": "string nebo null"
+  "typ": "urazka | spam | v poradku",
+  "skore_toxicity": "1 | 2 | 3 | 4 | 5",
+  "akce" : "schvalit | smazat | vyzaduje_kontrolu"
 }
 ```
 
